@@ -1,7 +1,7 @@
 body {
     margin:0;
     padding:0;
-    background-image: url("assets/images/leaves-pattern.png");
+    background-image: url("../images/leaves-pattern.png");
 }
 
 header {
@@ -87,3 +87,15 @@ p {
     float: left;
     margin: 5px 20px;
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    height: 50px;
+    border-top: 5px solid #4aaaa5;
+ }
+
