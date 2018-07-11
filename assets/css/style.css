@@ -1,13 +1,28 @@
+header {
+    border: 2px solid gray;
+    width: 100%;
+}
+
+#name {
+    float:left;
+    width: 20%;
+    text-align: center;
+    background-color:#4aaaa5;
+    color: white;
+    padding: 10px 10px;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    float:right;
+    overflow: auto;
+    float:right; 
+    padding-top: 20px;
 }
 
 li {
-    float: left;
+    float: left; 
 }
 
 li a {
@@ -21,4 +36,8 @@ li a {
 li a:hover {
     background-color: #111111;
     color: white;
+}
+
+.container {
+    clear:both;
 }
