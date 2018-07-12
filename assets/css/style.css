@@ -125,6 +125,12 @@ input[type=submit]:hover {
      width:100%;
 }
 
+.image {
+    height:auto;
+    width: 40%;
+    margin:10px;
+}
+
 .footer {
     position: fixed;
     left: 0;
@@ -132,7 +138,11 @@ input[type=submit]:hover {
     width: 100%;
     background-color: #666666;
     color: white;
-    height: 50px;
+    height: 15px;
     border-top: 5px solid #4aaaa5;
+    text-align:center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 10px;
+    padding-top: 30px;
  }
 
