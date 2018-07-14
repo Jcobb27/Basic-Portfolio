@@ -14,18 +14,20 @@ header {
     width: 100%;
     height: 75px;
     background-color: #ffffff;
+    z-index:99;
 }
 
 #name {
     float: left;
     width: 30%;
     text-align: center;
-    background-color: #4aaaa5;
+    background-color: rgb(128, 118, 173);
     font-family: 'Georgia', Times, Times New Roman, serif;
-    color: white;
+    color: #ffffff;
     margin: 0;
     height: 75px;
     line-height: 70px;
+    border-radius: 5px;
 }
 
 ul {
@@ -49,10 +51,11 @@ li a {
     text-decoration: none;
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    border-radius: 10px;
 }
 
 li a:hover {
-    background-color: #4aaaa5;
+    background-color: #C79BB8;
     color: white;
 }
 
@@ -84,7 +87,7 @@ p {
 #subheading {
     margin: 20px;
     padding-bottom: 10px;
-    color: #4aaaa5;
+    color: rgb(128, 118, 173);
     font-family: 'Georgia', Times, Times New Roman, serif;
     border-bottom: 2px solid #dddddd;
 }
@@ -118,7 +121,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #449b96;
+    background-color: #A55C8B;
 }
 
 .form {
@@ -167,7 +170,7 @@ img {
     background-color: #666666;
     color: white;
     height: 15px;
-    border-top: 5px solid #4aaaa5;
+    border-top: 5px solid rgb(128, 118, 173);
     text-align: center;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 10px;
